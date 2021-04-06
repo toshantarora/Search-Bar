@@ -1,0 +1,16 @@
+.container{
+    width: 100%;
+    height: 40vh;
+    padding: 20px;
+    margin-top: 40px;
+    display: flex;
+    /* background-color: burlywood; */
+}
+.card{
+    width: 15vw;
+    height: 20vh;
+    background-color: white;
+    border-radius: 10px;
+    /* padding: 30px; */
+    margin: 10px 10px;
+}
