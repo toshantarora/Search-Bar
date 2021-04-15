@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import './searchbar.css';
 import UserDetail from './userdetail';
+
 const Searchbar = () => {
       
    const [user, setUserDetails] = useState([]);
@@ -39,13 +40,9 @@ const Searchbar = () => {
             
             <div className="card-container">
             {userFiltered.map((users, idx) => (<UserDetail key={idx} {...users}/>))}
-                <UserDetail/>
-
-
-                {/* {filteredCountries.map((country, idx) => (
-        <CountryDetail key={idx} {...country} />
-      ))} */}
+              
             </div>
+            
         </div>
     )
 }
